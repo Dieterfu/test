@@ -537,7 +537,7 @@
         "fieldType": "Object"
     }},
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "widgetName": "insert_form",
+    "widgetName": "insert_formCopy",
     "submitButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -657,7 +657,7 @@
     "rightColumn": 64,
     "dynamicHeight": "FIXED",
     "autoGenerateForm": true,
-    "widgetId": "w10l8merz2",
+    "widgetId": "a5epvzpt5w",
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -666,7 +666,7 @@
     },
     "isVisible": "true",
     "version": 1,
-    "parentId": "9rhv3ioohq",
+    "parentId": "ptt5hrjz1v",
     "renderMode": "CANVAS",
     "isLoading": false,
     "scrollContents": true,
