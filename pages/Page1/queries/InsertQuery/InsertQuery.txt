@@ -1,0 +1,28 @@
+INSERT INTO User (
+	id,
+	id,
+	username,
+	firstname,
+	lastname,
+	email,
+	password,
+	PasswordResetToken,
+	PasswordResetTokenValid,
+	ValidateEmailToken,
+	ValidateEmailTokenValid,
+	disabled
+)
+VALUES (
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.id}}',
+	'{{insert_form.formData.username}}',
+	'{{insert_form.formData.firstname}}',
+	'{{insert_form.formData.lastname}}',
+	'{{insert_form.formData.email}}',
+	'{{insert_form.formData.password}}',
+	'{{insert_form.formData.PasswordResetToken}}',
+	'{{insert_form.formData.PasswordResetTokenValid}}',
+	'{{insert_form.formData.ValidateEmailToken}}',
+	'{{insert_form.formData.ValidateEmailTokenValid}}',
+	'{{insert_form.formData.disabled}}'
+);

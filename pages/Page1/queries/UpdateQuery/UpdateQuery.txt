@@ -1,0 +1,13 @@
+UPDATE User SET
+		id = '{{update_form.fieldState.id.isVisible ? update_form.formData.id : update_form.sourceData.id}}',
+		username = '{{update_form.fieldState.username.isVisible ? update_form.formData.username : update_form.sourceData.username}}',
+    firstname = '{{update_form.fieldState.firstname.isVisible ? update_form.formData.firstname : update_form.sourceData.firstname}}',
+		lastname = '{{update_form.fieldState.lastname.isVisible ? update_form.formData.lastname : update_form.sourceData.lastname}}',
+		email = '{{update_form.fieldState.email.isVisible ? update_form.formData.email : update_form.sourceData.email}}',
+		password = '{{update_form.fieldState.password.isVisible ? update_form.formData.password : update_form.sourceData.password}}',
+		PasswordResetToken = '{{update_form.fieldState.PasswordResetToken.isVisible ? update_form.formData.PasswordResetToken : update_form.sourceData.PasswordResetToken}}',
+		PasswordResetTokenValid = '{{update_form.fieldState.PasswordResetTokenValid.isVisible ? update_form.formData.PasswordResetTokenValid : update_form.sourceData.PasswordResetTokenValid}}',
+		ValidateEmailToken = '{{update_form.fieldState.ValidateEmailToken.isVisible ? update_form.formData.ValidateEmailToken : update_form.sourceData.ValidateEmailToken}}',
+		ValidateEmailTokenValid = '{{update_form.fieldState.ValidateEmailTokenValid.isVisible ? update_form.formData.ValidateEmailTokenValid : update_form.sourceData.ValidateEmailTokenValid}}',
+		disabled = '{{update_form.fieldState.disabled.isVisible ? update_form.formData.disabled : update_form.sourceData.disabled}}'
+  WHERE id = {{data_table.selectedRow.id}};
