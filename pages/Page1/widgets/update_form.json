@@ -84,9 +84,7 @@
         {"key": "schema.__root_schema__.children.sevDeskId.accentColor"},
         {"key": "schema.__root_schema__.children.bookkrId.defaultValue"},
         {"key": "schema.__root_schema__.children.bookkrId.borderRadius"},
-        {"key": "schema.__root_schema__.children.bookkrId.accentColor"},
-        {"key": "schema.__root_schema__.children.disabled.borderRadius"},
-        {"key": "schema.__root_schema__.children.isFundrAdmin.borderRadius"}
+        {"key": "schema.__root_schema__.children.bookkrId.accentColor"}
     ],
     "showReset": true,
     "dynamicHeight": "FIXED",
@@ -297,7 +295,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.preferencesId))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "string",
+                "dataType": "number",
                 "accessor": "preferencesId",
                 "isVisible": true,
                 "label": "Preferences Id",
@@ -308,8 +306,8 @@
                 "iconAlign": "left",
                 "position": 18,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": 11,
+                "fieldType": "Number Input"
             },
             "bookkrId": {
                 "labelTextSize": "0.875rem",
@@ -362,7 +360,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.addressId))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "string",
+                "dataType": "number",
                 "accessor": "addressId",
                 "isVisible": true,
                 "label": "Address Id",
@@ -373,8 +371,8 @@
                 "iconAlign": "left",
                 "position": 15,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": 1,
+                "fieldType": "Number Input"
             },
             "profilePicture": {
                 "labelTextSize": "0.875rem",
@@ -477,7 +475,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.referenceNumber))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "string",
+                "dataType": "number",
                 "accessor": "referenceNumber",
                 "isVisible": true,
                 "label": "Reference Number",
@@ -488,8 +486,8 @@
                 "iconAlign": "left",
                 "position": 16,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": 1,
+                "fieldType": "Number Input"
             },
             "ValidateEmailTokenValid": {
                 "labelTextSize": "0.875rem",
@@ -541,19 +539,17 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.disabled))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "string",
+                "dataType": "boolean",
                 "accessor": "disabled",
                 "isVisible": true,
                 "label": "Disabled",
+                "alignWidget": "LEFT",
                 "originalIdentifier": "disabled",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
                 "position": 9,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": false,
+                "fieldType": "Switch"
             },
             "sevDeskId": {
                 "labelTextSize": "0.875rem",
@@ -584,19 +580,17 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.isFundrAdmin))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "string",
+                "dataType": "boolean",
                 "accessor": "isFundrAdmin",
                 "isVisible": true,
                 "label": "Is Fundr Admin",
+                "alignWidget": "LEFT",
                 "originalIdentifier": "isFundrAdmin",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
                 "position": 17,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": true,
+                "fieldType": "Switch"
             },
             "email": {
                 "labelTextSize": "0.875rem",
